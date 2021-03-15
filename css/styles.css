@@ -1,8 +1,17 @@
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+.header-section {
+  padding-left: 0;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+.footer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
