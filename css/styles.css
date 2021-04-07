@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  position: absolute;
 }
 
 h2 {
@@ -37,36 +37,43 @@ p, ul {
 
 .box {
   max-width: 80%;
+}
+
+
+.price-card {
+  max-width: 60%;
+  transform: translateY(10%);
+
 
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: 3.125rem;
-  margin-left: 6.25rem;
-  transform: translate(-50%, -50%);
+.top-section {
+  background-color: #fff;
+  border-top-left-radius: .325rem;
+  border-top-right-radius: .325rem;
 }
 
 .header-section {
-  padding: .75rem;
+  padding-left: 0;
+  border-radius: .325 .325;
+}
+
+.header-section h2 {
+  color: var(--cyan);
+}
+
+.header-section h3 {
+  color: var(--brightYellow);
 }
 
 .header-section p {
   color: var(--blueGray);
 }
 
-.top-section h2 {
-  color: var(--cyan);
-}
-
-.top-section h3 {
-  color: var(--brightYellow);
-}
-
 .bottom-section {
-  color: #fff;
+  color: var(--lightGray);
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .section-header {
@@ -75,6 +82,7 @@ p, ul {
 
 .subscription {
   background-color: var(--cyan);
+  border-bottom-left-radius: .325rem;
 }
 
 .price {
@@ -87,10 +95,9 @@ p, ul {
   font-weight: 700;
 }
 
-
-
 .why-us {
   background-color: hsl(177, 43%, 50%);
+  border-bottom-right-radius: .325rem;
 }
 
 .benefits {
@@ -98,8 +105,6 @@ p, ul {
   font-weight: 400;
   line-height: 1.5;
 }
-
-
 
 .footer-section {
   display: flex;
