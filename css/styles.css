@@ -37,11 +37,12 @@ h3 {
 
 p, ul {
   font-size: .75rem;
+  line-height: 2;
 }
 
 .price-card {
   position: absolute;
-  max-width: 60%;
+  max-width: 50%;
   top: 50%;
   transform: translateY(75%);
 }
@@ -101,7 +102,7 @@ p, ul {
   cursor: pointer;
   padding: 1.25rem 0;
   box-shadow: 0 .3125rem .625rem .625rem rgba(0, 0, 0, 0.05);
-  margin-top: .9375rem;
+  margin-top: 2.375rem;
   width: 100%;
   border-radius: .3125;
   font-size: 1.125rem;
