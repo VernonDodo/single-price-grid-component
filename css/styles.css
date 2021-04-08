@@ -17,7 +17,7 @@ html {
 
 body {
   font-family: "Karla", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   max-height: 100%;
   max-width: 100%;
   display: flex;
@@ -28,16 +28,18 @@ body {
 }
 
 h2 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-weight: 700;
 }
 
 h3 {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 p, ul {
-  font-size: .75rem;
+  font-size: .9rem;
   line-height: 2;
+  word-spacing: 1.5;
 }
 
 .price-card {
@@ -64,6 +66,7 @@ p, ul {
 
 .header-section h3 {
   color: var(--brightYellow);
+  font-weight: 700;
 }
 
 .header-section p {
@@ -77,6 +80,7 @@ p, ul {
 }
 
 .section-header {
+  color: #fff;
   font-weight: 700;
 }
 
@@ -102,7 +106,7 @@ p, ul {
   cursor: pointer;
   padding: 1.25rem 0;
   box-shadow: 0 .3125rem .625rem .625rem rgba(0, 0, 0, 0.05);
-  margin-top: 2.375rem;
+  margin-top: 4.0625rem;
   width: 100%;
   border-radius: .3125;
   font-size: 1.125rem;
